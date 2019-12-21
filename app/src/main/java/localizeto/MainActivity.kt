@@ -1,4 +1,4 @@
-package com.localize.to.androidexample
+package localizeto.androidexample
 
 import android.os.Bundle
 import android.util.Log
@@ -7,7 +7,7 @@ import android.view.Menu
 import android.view.MenuItem
 import androidx.recyclerview.widget.DefaultItemAnimator
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.localize.to.*
+import localizeto.*
 
 import kotlinx.android.synthetic.main.activity_main.*
 

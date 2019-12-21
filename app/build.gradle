@@ -8,7 +8,7 @@ android {
     compileSdkVersion 29
     buildToolsVersion "29.0.2"
     defaultConfig {
-        applicationId "com.example.localizetoandroidexample"
+        applicationId "localizeto.androidexample"
         minSdkVersion 19
         targetSdkVersion 29
         versionCode 1
@@ -33,5 +33,11 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
     implementation project(path: ':localize-to')
+
+//    implementation 'com.github.whitetown:localize-to:*'
+//    implementation 'com.google.code.gson:gson:2.8.5'
+//    implementation 'com.github.salomonbrys.kotson:kotson:2.5.0'
+
 }

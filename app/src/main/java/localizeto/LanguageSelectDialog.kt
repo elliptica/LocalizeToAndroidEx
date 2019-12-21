@@ -1,4 +1,4 @@
-package com.localize.to.androidexample
+package localizeto.androidexample
 
 import android.app.Dialog
 import android.os.Bundle

@@ -1,4 +1,4 @@
-package com.localize.to.androidexample
+package localizeto.androidexample
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -6,7 +6,7 @@ import android.widget.RelativeLayout
 import android.widget.TextView
 import androidx.core.view.children
 import androidx.recyclerview.widget.RecyclerView
-import com.localize.to.localize
+import localizeto.localize
 
 class MyAdapter(
     private val keys: Array<String>
