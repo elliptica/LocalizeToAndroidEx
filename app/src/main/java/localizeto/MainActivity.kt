@@ -69,7 +69,9 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun initializeLocalize() {
-        LocalizeTo.configure(this.apiKey, application.filesDir, assets)
+        LocalizeTo.configure(this.apiKey,
+                            application.filesDir,   //download new translations here
+                            assets)                 //embedded translations
         LocalizeTo.load(this.languages)
     }
 

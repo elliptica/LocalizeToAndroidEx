@@ -34,10 +34,9 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
-    implementation project(path: ':localize-to')
+//    implementation project(path: ':localize-to')
 
-//    implementation 'com.github.whitetown:localize-to:*'
-//    implementation 'com.google.code.gson:gson:2.8.5'
-//    implementation 'com.github.salomonbrys.kotson:kotson:2.5.0'
-
+    implementation 'com.github.whitetown:localize-to:0.0.3'
+    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation 'com.github.salomonbrys.kotson:kotson:2.5.0'
 }
